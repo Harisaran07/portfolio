@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Harisaran S - Full Stack Developer">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Contact | Harisaran S</title>
+</head>
+<body>
+    <!-- Video Background -->
+    <video id="video-bg" autoplay muted loop playsinline>
+        <source src="https://assets.mixkit.co/videos/22760/22760-4k.mp4" type="video/mp4">
+    </video>
+
+    <!-- Floating Particles -->
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <header>
+        <nav id="container-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </nav>
+    </header>
+
+    <div class="side-nav">
+        <a href="projects.html" class="nav-arrow prev" title="Previous: Projects">
+            <i class="fa-solid fa-chevron-left"></i>
+        </a>
+        <div></div> <!-- Empty div for spacing if no next -->
+    </div>
+
+    <section class="contact-section page-transition">
+        <div class="contact-container reveal-up">
+            <h2>Get in <span>Touch</span></h2>
+            <p class="contact-subtitle">Have a project in mind or just want to say hi? Feel free to reach out!</p>
+            
+            <div class="contact-grid">
+                <div class="contact-info reveal-left" style="animation-delay: 0.6s;">
+                    <h3>Contact Information</h3>
+                    <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+                    
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>empiresaranemppiresaran@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 8525094560</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-location-dot"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Tamil Nadu, India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/Harisaran07" target="_blank" class="social-item">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/harisaran-s-aaa03933b" target="_blank" class="social-item">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container reveal-right" style="animation-delay: 0.6s;">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" placeholder="What is this about?" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" placeholder="Your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
